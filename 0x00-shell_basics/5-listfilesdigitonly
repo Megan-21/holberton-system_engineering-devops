@@ -1,0 +1,92 @@
+Last login: Thu Jul 11 13:03:13 on ttys001
+D25S20G0GG7V:~ summercamp$ pwd
+/Users/summercamp
+D25S20G0GG7V:~ summercamp$ ls
+Applications	Downloads	Music		Vagrantfile
+Desktop		Library		Pictures	VirtualBox VMs
+Documents	Movies		Public
+D25S20G0GG7V:~ summercamp$ cd /usr/home
+-bash: cd: /usr/home: No such file or directory
+D25S20G0GG7V:~ summercamp$ cd /home
+D25S20G0GG7V:home summercamp$ ls -l
+D25S20G0GG7V:home summercamp$ cd /00x0-shell_basics
+-bash: cd: /00x0-shell_basics: No such file or directory
+D25S20G0GG7V:home summercamp$ cd /Users/summercamp
+D25S20G0GG7V:~ summercamp$ ls -l
+total 8
+drwx------@  3 summercamp  HBTN\Domain Users   102 Jul  3 17:02 Applications
+drwx------+  4 summercamp  HBTN\Domain Users   136 Jul 11 13:26 Desktop
+drwx------+  8 summercamp  HBTN\Domain Users   272 Jul 11 13:20 Documents
+drwx------+  8 summercamp  HBTN\Domain Users   272 Jul 10 15:14 Downloads
+drwx------@ 58 summercamp  HBTN\Domain Users  1972 Jul 10 11:19 Library
+drwx------+  3 summercamp  HBTN\Domain Users   102 Jul  3 10:21 Movies
+drwx------+  3 summercamp  HBTN\Domain Users   102 Jul  3 10:21 Music
+drwx------+  3 summercamp  HBTN\Domain Users   102 Jul  3 10:21 Pictures
+drwxr-xr-x+  4 summercamp  HBTN\Domain Users   136 Jul  3 10:21 Public
+-rw-r--r--@  1 summercamp  HBTN\Domain Users  3022 Jul 10 09:59 Vagrantfile
+drwx------   3 summercamp  HBTN\Domain Users   102 Jul 10 10:00 VirtualBox VMs
+D25S20G0GG7V:~ summercamp$ ls -la ..
+total 8
+drwxr-xr-x  30 root             admin              1020 Jul  3 10:21 .
+drwxr-xr-x  34 root             wheel              1224 May 16 09:41 ..
+-rw-r--r--   1 root             admin                46 Dec  5  2017 .bash_profile
+-rw-r--r--   1 root             wheel                 0 Jul 15  2017 .localized
+drwxr-xr-x+ 17 116              HBTN\Domain Users   578 Mar 20 22:32 116
+drwxr-xr-x+ 13 209              HBTN\Domain Users   442 Jun  5  2018 209
+drwxr-xr-x+ 14 210              HBTN\Domain Users   476 Jul  1  2018 210
+drwxr-xr-x+ 27 235              HBTN\Domain Users   918 Jun 28  2018 235
+drwxr-xr-x+ 13 253              HBTN\Domain Users   442 May 19  2018 253
+drwxr-xr-x+ 13 377              HBTN\Domain Users   442 Jul  2  2018 377
+drwxr-xr-x+ 14 385              HBTN\Domain Users   476 Apr 19 17:07 385
+drwxr-xr-x+ 23 400              HBTN\Domain Users   782 Sep 30  2018 400
+drwxr-xr-x+ 13 404              HBTN\Domain Users   442 Aug  7  2018 404
+drwxr-xr-x+ 21 495              HBTN\Domain Users   714 Nov  5  2018 495
+drwxr-xr-x+ 20 523              HBTN\Domain Users   680 Dec 16  2018 523
+drwxr-xr-x+ 24 525              HBTN\Domain Users   816 Sep 18  2018 525
+drwxr-xr-x+ 13 534              HBTN\Domain Users   442 Jan 18 13:05 534
+drwxr-xr-x+ 23 537              HBTN\Domain Users   782 Sep  4  2018 537
+drwxr-xr-x+ 23 538              HBTN\Domain Users   782 May 30 10:07 538
+drwxr-xr-x+ 22 539              HBTN\Domain Users   748 Oct  2  2018 539
+drwxr-xr-x+ 23 638              HBTN\Domain Users   782 Jan 28 23:16 638
+drwxr-xr-x+ 13 651              HBTN\Domain Users   442 Jan 30 16:45 651
+drwxr-xr-x+ 26 689              HBTN\Domain Users   884 Jan 30 10:19 689
+drwxr-xr-x+ 13 699              HBTN\Domain Users   442 Jan 31 17:39 699
+drwxr-xr-x+ 25 850              HBTN\Domain Users   850 Jun 14 18:57 850
+drwxrwxrwt   7 root             wheel               238 Aug 22  2018 Shared
+drwxr-xr-x+ 14 guillaume        HBTN\Domain Users   476 May 19  2018 guillaume
+drwxr-xr-x+ 25 holbertonschool  staff               850 Jul  2 15:17 holbertonschool
+drwxr-xr-x+ 23 sfpython         HBTN\Domain Users   782 Jun  3  2018 sfpython
+drwxr-xr-x+ 24 summercamp       HBTN\Domain Users   816 Jul 11 13:02 summercamp
+D25S20G0GG7V:~ summercamp$ ls -lan ..
+total 8
+drwxr-xr-x  30 0           80          1020 Jul  3 10:21 .
+drwxr-xr-x  34 0           0           1224 May 16 09:41 ..
+-rw-r--r--   1 0           80            46 Dec  5  2017 .bash_profile
+-rw-r--r--   1 0           0              0 Jul 15  2017 .localized
+drwxr-xr-x+ 17 1294373035  1969563385   578 Mar 20 22:32 116
+drwxr-xr-x+ 13 1713953038  1969563385   442 Jun  5  2018 209
+drwxr-xr-x+ 14 109326446   1969563385   476 Jul  1  2018 210
+drwxr-xr-x+ 27 1220669789  1969563385   918 Jun 28  2018 235
+drwxr-xr-x+ 13 527444613   1969563385   442 May 19  2018 253
+drwxr-xr-x+ 13 879729198   1969563385   442 Jul  2  2018 377
+drwxr-xr-x+ 14 1431089184  1969563385   476 Apr 19 17:07 385
+drwxr-xr-x+ 23 957746749   1969563385   782 Sep 30  2018 400
+drwxr-xr-x+ 13 2070645074  1969563385   442 Aug  7  2018 404
+drwxr-xr-x+ 21 126806047   1969563385   714 Nov  5  2018 495
+drwxr-xr-x+ 20 900123475   1969563385   680 Dec 16  2018 523
+drwxr-xr-x+ 24 1168525238  1969563385   816 Sep 18  2018 525
+drwxr-xr-x+ 13 1678635556  1969563385   442 Jan 18 13:05 534
+drwxr-xr-x+ 23 1471850031  1969563385   782 Sep  4  2018 537
+drwxr-xr-x+ 23 28548132    1969563385   782 May 30 10:07 538
+drwxr-xr-x+ 22 1088475252  1969563385   748 Oct  2  2018 539
+drwxr-xr-x+ 23 1027163650  1969563385   782 Jan 28 23:16 638
+drwxr-xr-x+ 13 238373773   1969563385   442 Jan 30 16:45 651
+drwxr-xr-x+ 26 408482856   1969563385   884 Jan 30 10:19 689
+drwxr-xr-x+ 13 1891263984  1969563385   442 Jan 31 17:39 699
+drwxr-xr-x+ 25 55380678    1969563385   850 Jun 14 18:57 850
+drwxrwxrwt   7 0           0            238 Aug 22  2018 Shared
+drwxr-xr-x+ 14 2009220823  1969563385   476 May 19  2018 guillaume
+drwxr-xr-x+ 25 501         20           850 Jul  2 15:17 holbertonschool
+drwxr-xr-x+ 23 1314072539  1969563385   782 Jun  3  2018 sfpython
+drwxr-xr-x+ 24 1489550384  1969563385   816 Jul 11 13:02 summercamp
+D25S20G0GG7V:~ summercamp$ 
